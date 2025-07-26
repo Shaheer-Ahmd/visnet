@@ -1,0 +1,6 @@
+core/bpftool/*
+core/headers/*
+.env
+bpf*
+main
+.vscode

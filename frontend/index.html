@@ -1,0 +1,21 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBPF Process Network Mapper</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Vis.js library from CDN -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <div class="header">
+    <h1>Live Process Network Map</h1>
+    <button id="help-btn">Help</button>
+    <button id="cleanup-btn">Cleanup Inactive Nodes</button>
+</div>
+    <div id="network-graph"></div>
+    <script src="main.js"></script>
+</body>
+</html>
