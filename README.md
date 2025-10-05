@@ -1,5 +1,5 @@
 
-# 🧠 eBPF Live Process Network Mapper
+# VISNET: an eBPF based Live Process Network Mapper
 
 A full-stack observability tool that uses **eBPF** to capture system-level network events and visualizes them in real-time on a web-based dashboard.
 
